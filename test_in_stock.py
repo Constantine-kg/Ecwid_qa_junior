@@ -1,5 +1,5 @@
 import pytest
-import eqwid_test
+from main import filtred_data_in_stock
 
 def test_1():
     parsed_data_array = eqwid_test.filtred_data_in_stock();
